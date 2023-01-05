@@ -47,6 +47,7 @@
     color: #FD6E0A;
 }
 
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -173,7 +174,7 @@ main {
 /* my skills style */
 .skills {
     margin-top: 10px;
-    padding: 131px 163px 131px 150px;
+    padding: 131px 163px 0 120px;
     background: #FFF8F3;
     border-radius: 10px;
 }
@@ -231,7 +232,7 @@ main {
 
 /* my resume style */
 .resume {
-    padding: 131px 163px 131px 150px;
+    margin-top: 120px;
     background: #FFF8F3;
     border-radius: 10px;
 }
@@ -277,4 +278,69 @@ main {
 
 hr {
   border: 1px solid #D1D1D1;
+}
+
+.resume-button {
+    text-align: center;
+}
+
+/* contact section style */
+.contact {
+    margin-top: 230px;
+    display: flex;
+    gap: 115px;
+    background: #FFF8F3;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-weight: 400;
+    width: 562px;
+    height: 56px;
+    font-size: 16px;
+    color: #474747;
+}
+
+.contact input, textarea {
+    margin-bottom: 24px;
+}
+
+.contact .input-name{
+    width: 461px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 18px 30px;
+}
+
+.contact .text-area {
+    width: 461px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 18px 30px;
+}
+
+input, textarea {
+    border:none;
+}
+
+input:focus, textarea:focus
+{
+border: 1px solid  #FD6E0A;
+outline: none;
+}
+
+.contact a {
+    text-decoration: none;
+    padding-right: 10px;
 }
