@@ -117,7 +117,7 @@ nav li {
     height: 676px;
     left: 978px;
     top: 161px;
-    margin-left: 270px;
+    margin-left: 160px;
 }
 
 /* main section style */
@@ -315,7 +315,6 @@ hr {
     width: 461px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
     color: #757575;
     padding: 18px 30px;
 }
